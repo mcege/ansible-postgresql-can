@@ -1,0 +1,10 @@
+---
+#asd
+
+-
+  hosts: db
+  become: yes
+  become_method: sudo
+
+  roles:
+    - ansible-postgresql
